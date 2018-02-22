@@ -4,7 +4,7 @@ defmodule RabbitMQReceiver.Mixfile do
   def project do
     [
       app: :rabbitmq_receiver,
-      version: "0.1.2",
+      version: "0.1.6",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
       deps: deps(),
@@ -40,7 +40,7 @@ defmodule RabbitMQReceiver.Mixfile do
   end
 
 
-  
+
 
   defp package do
     [
@@ -48,7 +48,7 @@ defmodule RabbitMQReceiver.Mixfile do
       maintainers: ["Dmitry A. Pyatkov"],
       licenses: ["Apache 2.0"],
       files: files(),
-      links: %{"No Link" => "http://localhost"}
+      links: %{"Hex Docs" => "https://hexdocs.pm"}
     ]
   end
 end
